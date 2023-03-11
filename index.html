@@ -9,25 +9,27 @@
 </head>
 <body>
 
-    <div id="turn-sentence">It is player <span id="turn"></span> 's turn.</div>
 
     <div class="grid">
-        <div class="a" id="box"></div>
-        <div class="b" id="box"></div>
-        <div class="c" id="box"></div>
-        <div class="d" id="box"></div>
-        <div class="e" id="box"></div>
-        <div class="f" id="box"></div>
-        <div class="g" id="box"></div>
-        <div class="h" id="box"></div>
-        <div class="i" id="box"></div>
+        <div class="box" id="a"></div>
+        <div class="box" id="b"></div>
+        <div class="box" id="c"></div>
+        <div class="box" id="d"></div>
+        <div class="box" id="e"></div>
+        <div class="box" id="f"></div>
+        <div class="box" id="g"></div>
+        <div class="box" id="h"></div>
+        <div class="box" id="i"></div>
     </div>
     <br><br><br>
 
-    <div id="status"></div>
+    <div>
+        <button class = "buttons" id="one-player">1 Player </button>
+        <button class = "buttons" id="two-players">2 Player</button>
+        <button class = "buttons" id="play-again">Play Again!</button>
+      </div>
 
-    <button id="play-again">Play Again!</button>
-    <p id="winner"></p>
+    <div id="status"></div>
     
     <script src="./main.js"></script>
 </body>
